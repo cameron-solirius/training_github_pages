@@ -1,4 +1,3 @@
-### EDIT
 
 # training_github_pages
 
