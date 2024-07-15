@@ -1,3 +1,5 @@
+### EDIT
+
 # training_github_pages
 
 Graduate training - git, VS Code, terminal and basic web page building with Github Pages
@@ -35,7 +37,7 @@ If you are given a work Windows laptop, ask a tutor how to get setup or follow t
 ## Creating a new branch
 
 You now have a copy of this repository on your local machine. You can now create a new branch to work on.
-
+ 
 - Create a new branch using `git branch <branch_name>`
 - Checkout the new branch using `git checkout <branch_name>`
 - Push the new branch to your forked repository using `git push --set-upstream origin <branch_name>`
