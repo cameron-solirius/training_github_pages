@@ -29,14 +29,12 @@ body {
   background-color:aliceblue;
   /* TODO: change the font - be mindful of how fonts are imported in the webpage */
   font-family: 'Noto Sans', sans-serif;
-  /* TODO: change the background colour */
-  color: #827397;
+  color: peachpuff;
   font-size: 16px;
   line-height:normal;
 }
 h1, h2, h3 {
-  /* TODO: change the header font colour */
-  color: #4D4C7D;
+  color: darkred;
 }
 
 h1 {
@@ -59,9 +57,8 @@ p {
 }
 
 a {
-  /* TODO: change the link colours */
   text-decoration: none;
-  color: #363062;
+  color: #1603a6;
 }
 
 a:hover {
