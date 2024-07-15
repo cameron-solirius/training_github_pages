@@ -26,15 +26,23 @@
 }
 
 body {
-  background-color:aliceblue;
+  background-color:black;
   /* TODO: change the font - be mindful of how fonts are imported in the webpage */
   font-family: 'Noto Sans', sans-serif;
-  color: peachpuff;
+  color: black;
   font-size: 16px;
   line-height:normal;
 }
 h1, h2, h3 {
-  color: darkred;
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
 }
 
 h1 {
@@ -59,18 +67,15 @@ p {
 a {
   text-decoration: none;
   color: #1603a6;
+  transition: 0.5s;
 }
 
-a:hover {
-  background-color: #827397;
-}
 
 .img-circle {
   border-radius: 50%;
 }
 
 .card-white {
-  /* TODO: change the card background colour */
   background-color: white;
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0 0 0 / 10%);
@@ -80,11 +85,16 @@ a:hover {
 }
 
 .btn-blue {
-  /* TODO: change the button colour */
-  background-color:#4D4C7D;
-  color: #E9D5CA;
+  background-color:blue;
+  color: white;
   padding: 15px 20px;
   border-radius: 4px;
+
+
+}
+
+.btn-blue:hover {
+  background-color: red;
 }
 
 .list-inline {
